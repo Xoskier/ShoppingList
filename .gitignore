@@ -1,1 +1,28 @@
-.vs/ 
+.vs/
+## PLIKI KOMPILACJI .NET MAUI
+[Bb]in/
+[Oo]bj/
+*.csproj.user
+*.userosscache
+*.sln.docstates
+
+# Pliki generowane przez kompilator
+*.g.cs
+*.g.i.cs
+**/*.g.cs
+**/*.g.i.cs
+
+# Assembly Info
+*AssemblyInfo.cs
+*AssemblyAttributes.cs
+
+# Global Usings
+*GlobalUsings.g.cs
+
+# Platform specific
+**/Platforms/*/App.g.*
+**/XamlTypeInfo.g.cs
+
+# Debug/Release folders
+[Dd]ebug/
+[Rr]elease/
