@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ShoppingList.Views.ProductView">
+    <HorizontalStackLayout Spacing="10" Padding="10">
+        <Entry x:Name="NameEntry" Text="Nazwa" FontSize="16" VerticalOptions="Center" WidthRequest="140" />
+        <Label x:Name="UnitLabel" Text="jedn." FontSize="16" VerticalOptions="Center" />
+        <Entry x:Name="QuantityEntry" Text="1" WidthRequest="50" Keyboard="Numeric" />
+        <Button x:Name="DecreaseButton" Text="-" WidthRequest="30" />
+        <Button x:Name="IncreaseButton" Text="+" WidthRequest="30" />
+        <CheckBox x:Name="PurchasedCheckBox" />
+        <Label Text="Kupiony" VerticalOptions="Center" />
+        <Button x:Name="DeleteButton" Text="Usuń" BackgroundColor="Red" />
+    </HorizontalStackLayout>
+</ContentView>

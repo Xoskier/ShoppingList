@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace:ShoppingList.Views"
+             x:Class="ShoppingList.Views.MainPage"
+             Title="Lista zakupów">
+    <ScrollView>
+        <VerticalStackLayout x:Name="MainLayout" Spacing="20" Padding="20">
+            <Label Text="Lista zakupów" FontSize="24" HorizontalOptions="Center" />
+            <Button x:Name="AddProductButton" Text="Dodaj produkt" HorizontalOptions="Fill" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
